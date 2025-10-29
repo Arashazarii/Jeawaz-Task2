@@ -11,7 +11,7 @@
 }
 @media (min-width: 768px) {
   .container {
-    width: 72rem;
+    width: 76rem;
   }
   .user--orders__title {
     display: none;
@@ -48,6 +48,16 @@
   .user--orders__process {
     padding: 3rem;
   }
+  .user--purchase__img img {
+    margin: 0 1.5rem;
+  }
+  .badge {
+    display: block;
+  }
+  .user--purchase__img li {
+    width: 7rem;
+    height: 7rem;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -60,6 +70,15 @@
   }
   .status--box__description {
     min-width: 8rem;
+  }
+  .user--orders__process__details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user--orders__process__date__code {
+    display: flex;
+    gap: 3rem;
+    flex-direction: row-reverse;
   }
 }
 @media (min-width: 1400px) {
