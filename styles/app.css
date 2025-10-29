@@ -458,7 +458,6 @@ App code
   /* margin-bottom: 2rem; */
 }
 
-
 .user--orders__process__date {
   margin: 2rem 0;
 }
@@ -533,7 +532,7 @@ App code
   border-radius: 1.2rem;
   width: 4rem;
   height: 4rem;
-
+  margin: 0 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
